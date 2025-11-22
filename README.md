@@ -14,7 +14,7 @@ This project satisfies the **Java GUI-Based Project Marking Rubric** and is desi
 
 ---
 
-##  Features
+## Features
 
 ### Supply Chain Manager
 - View the entire blockchain
@@ -56,18 +56,18 @@ A **Genesis Block** is created automatically when the system starts.
 
 ---
 
-## 🧠 Object-Oriented Programming Used
+## Object-Oriented Programming Used
 
-### ✔ Inheritance  
+### Inheritance  
 `User` → `SupplyChainManager`, `Supplier`, `Retailer`
 
-### ✔ Polymorphism  
+### Polymorphism  
 Dashboard loading & behavior differ based on runtime user type.
 
-### ✔ Interfaces  
+### Interfaces  
 Service abstraction and DAO pattern for cleaner modular code.
 
-### ✔ Exception Handling  
+### Exception Handling  
 Custom exceptions:
 - `InvalidTransactionException`
 - `BlockchainValidationException`
@@ -97,7 +97,7 @@ All operations follow the **DAO (Data Access Object)** pattern.
 
 ---
 
-## 🔄 Multithreading
+##  Multithreading
 
 A background validator thread runs every 10 seconds:
 
@@ -107,7 +107,7 @@ A background validator thread runs every 10 seconds:
 
 ---
 
-## 🖥 GUI (Java Swing)
+##  GUI (Java Swing)
 
 - Login Screen  
 - Supply Chain Manager Dashboard  
@@ -120,8 +120,9 @@ All screens built using **Swing** with event-based listeners.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
+```
 src/
 └─ com/blockchain/supplychain/
 ├─ model/
@@ -131,7 +132,7 @@ src/
 ├─ exception/
 ├─ util/
 └─ Main.java
-
+```
 yaml
 Copy code
 
@@ -149,7 +150,7 @@ Copy code
 
 ---
 
-## ⚙️ How to Run the Project
+## How to Run the Project
 
 ### 1. Clone the repository:
 git clone https://github.com/SIAkash07/blockchain-supply-chain.git
@@ -170,13 +171,13 @@ Copy code
 Edit `DBConnection.java`:
 
 java
+```
 private static final String URL = "jdbc:mysql://localhost:3306/blockchain_supplychain";
 private static final String USER = "root";
 private static final String PASSWORD = "your_password";
+```
 
 ### 5. Run the project
 Execute:
 `Main.java`
-css
-Copy code
-Main.java
+
