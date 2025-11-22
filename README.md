@@ -72,12 +72,12 @@ Custom exceptions:
 - `InvalidTransactionException`
 - `BlockchainValidationException`
 
-### ✔ Encapsulation  
+### Encapsulation  
 All model classes encapsulate their fields with getters/setters.
 
 ---
 
-## 💾 MySQL Database Schema
+## MySQL Database Schema
 
 Tables used:
 
@@ -133,12 +133,9 @@ src/
 ├─ util/
 └─ Main.java
 ```
-yaml
-Copy code
-
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - Java 17+  
 - Java Swing GUI  
@@ -155,14 +152,8 @@ Copy code
 ### 1. Clone the repository:
 git clone https://github.com/SIAkash07/blockchain-supply-chain.git
 
-shell
-Copy code
-
 ### 2. Import into Eclipse:
 File → Import → Existing Projects into Workspace
-
-php
-Copy code
 
 ### 3. Add MySQL Connector/J to Classpath  
 (Eclipse → Build Path → Add External JAR → Add to Classpath)
@@ -170,7 +161,6 @@ Copy code
 ### 4. Configure Database  
 Edit `DBConnection.java`:
 
-java
 ```
 private static final String URL = "jdbc:mysql://localhost:3306/blockchain_supplychain";
 private static final String USER = "root";
